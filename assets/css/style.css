@@ -234,8 +234,9 @@ a {
   }
 
   .heroimg img{
-    position: relative;
-    left:80px;
+    display: block;
+    max-width: 100%;
+    height: auto;
 
   }
 
@@ -298,9 +299,9 @@ a {
   }
 
   .heroimg img{
-    position: relative;
-    right: 450px;
-
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
   }
   
   
