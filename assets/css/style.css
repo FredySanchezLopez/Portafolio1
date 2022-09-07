@@ -47,6 +47,7 @@ a {
 }
 
 .hero__nav {
+  
   position: fixed;
   top: 0;
   width: 100%;
@@ -72,17 +73,25 @@ a {
 }
 
 .heroimg{
+  display: grid;
+  align-self: center;
+  justify-self: center;
   width: 100vw;
   height: 600px;
 }
 
 .heroimg img{
+  display: grid;
+  align-self: center;
+  justify-self: center;
   width: 300px;
   position: relative;
-  top: 150px;
-  right: 50px;
   border-radius: 20px;
 
+}
+
+.img-gallup{
+  width: 60px;
 }
 
 .hero__nav .logo {
@@ -137,6 +146,7 @@ a {
   margin-bottom: .75rem;
   font-size: clamp(1.8rem, 4vw, 3rem);
   font-weight: bold;
+  text-align: center;
   /* border: 1px solid red; */
 }
 
@@ -146,6 +156,7 @@ a {
   font-size: clamp(2rem, 5vw, 4.5rem);
   /* border: 1px solid red; */
   color: #fff;
+  text-align: center;
 }
 
 .hero__texto {
@@ -180,6 +191,18 @@ a {
   height: 100vh;
   margin:0;
 }
+.proyectos-muestra{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.proyectos-muestra img{
+  width: 150px;
+  height: 180px;
+
+}
 
 .seccion__titulo {
   padding-left: 20px;
@@ -187,6 +210,24 @@ a {
 
 .seccion__contenido {
   padding: 10px 20px 40px;
+}
+
+.seccion_habilidades{
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px;
+  
+  margin: auto;
+}
+
+.seccion_habilidades img{
+  
+  border-radius: 50%;
+  margin: 20px;
+  background-color: rgba(0, 255, 255, 0.1);
 }
 
 .contenerdor__principal > .seccion:nth-child(even) {
@@ -240,6 +281,7 @@ a {
 
   }
 
+  
 
 }
 
@@ -291,18 +333,24 @@ a {
   padding: 0 20px;
   font-size: 18px;
 }
+.heroimg img{
+  display: grid;
+  align-self: center;
+  justify-self: center;
+}
 
 /* mobile first */
 @media (min-width: 768px) {
   .hero__nav {
     height: 100px;
   }
-
+  
   .heroimg img{
-    display: inline-block;
-    max-width: 100%;
-    height: auto;
+      display: grid;
+      align-self: center;
+      justify-self: center;
   }
+  
   
   
 }

@@ -12,35 +12,37 @@
 
 <body>
 
-  <header class="hero">
-    <nav id="navBar" class="hero__nav">
-      <div class="hero__nav__contenedor">
-        <div class="logo">
-          <i class='bx bxs-id-card'></i>
-          <span>Fredy</span>
+    <header class="hero">
+      <nav id="navBar" class="hero__nav">
+        <div class="hero__nav__contenedor">
+          <div class="logo">
+            <i class='bx bxs-id-card'></i>
+            <span>Fredy</span>
+          </div>
+          <div id="heroMenu" class="hero__nav-inner">
+            <a class="hero__nav-link" href="#acerca">Sobre mí</a>
+            <a class="hero__nav-link" href="#servicios">Habilidades</a>
+            <a class="hero__nav-link" href="#habilidades">Estudios</a>
+            <a class="hero__nav-link" href="#proyectos">Proyectos</a>
+            <a class="hero__nav-link" href="#contacto">Contacto</a>
+          </div>
+          <button id="btnMenu" class="btn-abrir"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg></button>
         </div>
-        <div id="heroMenu" class="hero__nav-inner">
-          <a class="hero__nav-link" href="#acerca">Sobre mí</a>
-          <a class="hero__nav-link" href="#servicios">Servicios</a>
-          <a class="hero__nav-link" href="#habilidades">Habilidades</a>
-          <a class="hero__nav-link" href="#proyectos">Proyectos</a>
-          <a class="hero__nav-link" href="#contacto">Contacto</a>
-        </div>
-        <button id="btnMenu" class="btn-abrir"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg></button>
-      </div>
-    </nav>
+      </nav>
 
-    <div class="hero__contenedor">
-      <div class="heroimg">
-        <img src="./assets/Yoo.jpeg" alt="">
+      <div class="hero__contenedor2">
+        <div class="heroimg">
+          <img src="./assets/Yoo.jpeg" alt="">
+          <h1 class="hero__titulo">Hola, soy <span>Luis Alfredo Sánchez López</span> </h1>
+          <h2 class="hero__subtitulo">Desarrollador web</h2>
+        </div>
       </div>
-      <h1 class="hero__titulo">Hola, soy <span>Luis Alfredo Sánchez López</span> </h1>
-      <h2 class="hero__subtitulo">Desarrollador web</h2>
-      <p class="hero__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo quis
-        accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate vero
-        soluta! Fugiat, itaque.</p>
-    </div>
-  </header>
+        <div class="hero__contenedor">
+          
+          
+        </div>    
+      
+    </header>
 
   <main class="contenerdor__principal">
 
@@ -62,28 +64,33 @@
 
     <section id="servicios" class="seccion">
       <div class="seccion__contenedor">
-        <h2 class="seccion__titulo">Servicios</h2>
+        <h2 class="seccion__titulo">Habilidades</h2>
         <div class="seccion__contenido">
-          <p class="seccion__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo
-            quis accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate
-            vero soluta! Fugiat, itaque.</p>
-          <p class="seccion__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo
-            quis accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate
-            vero soluta! Fugiat, itaque.</p>
+          <div class="seccion_habilidades">
+
+            <img src="./assets/css3-logo-48.png" alt="css">
+            <img src="./assets/html5-logo-48.png" alt="html">
+            <img src="./assets/nodejs-logo-48.png" alt="nodejs">
+            <img src="./assets/python-logo-48.png" alt="python">
+            <img src="./assets/react-logo-48.png" alt="react">
+            <img src="./assets/javascript-logo-48.png" alt="">
+          </div>  
+      
         </div>
       </div>
     </section>
 
     <section id="habilidades" class="seccion">
       <div class="seccion__contenedor">
-        <h2 class="seccion__titulo">Habilidades</h2>
+        <h2 class="seccion__titulo">Estudios</h2>
         <div class="seccion__contenido">
-          <p class="seccion__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo
-            quis accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate
-            vero soluta! Fugiat, itaque.</p>
-          <p class="seccion__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo
-            quis accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate
-            vero soluta! Fugiat, itaque.</p>
+          <img src="https://raw.githubusercontent.com/bsqmAcademlo/assets_portfolios/main/Portafolio%201/Logos-Im%C3%A1genes/Tec.png" alt="tec">
+          <p class="seccion__texto">Ingeniería en Electrónica por el Tecnológico campus Aguascalientes </p>
+          <img class="img-gallup" src="./assets/Gallup 2.jpg" alt="gallup">
+          <p class="seccion__texto">Clifton Builders Program, Build Businesses, Teams and Communities por Gallup Washington D.C.</p>
+          <img src="https://raw.githubusercontent.com/bsqmAcademlo/assets_portfolios/main/Portafolio%201/Logos-Im%C3%A1genes/logo_academlo.png" alt="academlo">
+          <p class="seccion__texto">Escuela de código y tecnología Academlo | Actual</p>
+        </div>
         </div>
       </div>
     </section>
@@ -92,12 +99,12 @@
       <div class="seccion__contenedor">
         <h2 class="seccion__titulo">Proyectos</h2>
         <div class="seccion__contenido">
-          <p class="seccion__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo
-            quis accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate
-            vero soluta! Fugiat, itaque.</p>
-          <p class="seccion__texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eius assumenda illo
-            quis accusantium quos distinctio laudantium! Quas nihil earum explicabo facilis atque, cum optio voluptate
-            vero soluta! Fugiat, itaque.</p>
+          <div class="proyectos-muestra">  
+            <img src="https://raw.githubusercontent.com/bsqmAcademlo/assets_portfolios/main/Portafolio%201/Logos-Im%C3%A1genes/Ejemplo%201.png" alt="proyecto1">
+            <img src="https://raw.githubusercontent.com/bsqmAcademlo/assets_portfolios/main/Portafolio%201/Logos-Im%C3%A1genes/Ejemplo%203.png" alt="proyecto2">
+            <img src="https://raw.githubusercontent.com/bsqmAcademlo/assets_portfolios/main/Portafolio%201/Logos-Im%C3%A1genes/Ejemplo%204.png" alt="proyecto3">
+            <img src="https://raw.githubusercontent.com/bsqmAcademlo/assets_portfolios/main/Portafolio%201/Logos-Im%C3%A1genes/Ejemplo2.png" alt="proyecto4">
+          </div> 
         </div>
       </div>
     </section>
