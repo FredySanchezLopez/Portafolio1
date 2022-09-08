@@ -201,6 +201,7 @@ a {
 .proyectos-muestra img{
   width: 150px;
   height: 180px;
+  border-radius: 15px;
 
 }
 
@@ -255,6 +256,7 @@ a {
     transition: .3s ease-in-out;
   }
 
+  
 
   .hero__nav-inner.active {
     left: 0;
@@ -349,6 +351,15 @@ a {
       display: grid;
       align-self: center;
       justify-self: center;
+  }
+
+  
+  
+  .proyectos-muestra img{
+    width: 380px;
+    height: 280px;
+    border-radius: 30px;
+  
   }
   
   
