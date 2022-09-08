@@ -3,7 +3,7 @@ const navBar = document.getElementById('navBar')
 const btnMenu = document.getElementById('btnMenu')
 const heroMenu = document.getElementById('heroMenu')
 const sections = document.querySelectorAll('section[id]')
-const form = document.getElementById('form')
+
 
 /* Header agregar/quitar fondo */
 window.addEventListener('scroll', function () {
@@ -44,12 +44,14 @@ window.addEventListener('scroll', function (e) {
   }
 })
 
-/* Formulario */
+/* Formulario 
 form.addEventListener('submit', async (e) => {
   e.preventDefault()
 
-  const email = 'your@email.com'
-  const URL_BASE = `https://formsubmit.co/${email}`
+  
+  const URL_BASE = "https://formsubmit.co/ajax/sfredy188@gmail.com"
+
+
 
   const input = e.currentTarget.elements
   const formData = {
@@ -65,15 +67,16 @@ form.addEventListener('submit', async (e) => {
       Accept: 'application/json'
     },
     body: JSON.stringify(formData)
-  }
+  }*/
 
-  /* con then y catch */
+  /* con then y catch 
   fetch(URL_BASE, options)
     .then(response => response.json())
     .then(data => console.log(data))
     .catch(error => console.log(error))
+    */
 
-  /* Con async / await */
+  /* Con async / await 
   try {
     const res = await fetch(URL_BASE, options)
     const data = await res.json()
@@ -81,4 +84,4 @@ form.addEventListener('submit', async (e) => {
   } catch (error) {
     console.log(error)
   }
-})
+})*/
