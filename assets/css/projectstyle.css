@@ -41,6 +41,12 @@
     color: orange;
 }
 
+.img__proyect{
+    position: relative;
+    left: 80px;
+
+}
+
 @media (max-width: 768px) {
     .contain__proyect{
         display: flex;
@@ -54,3 +60,4 @@
 @media (min-width: 768px) {
 
 }
+
