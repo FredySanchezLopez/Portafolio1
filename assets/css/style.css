@@ -191,12 +191,12 @@ a {
   height: 100vh;
   margin:0;
 }
-.proyectos-muestra{
+/* .proyectos-muestra{
   width: 100vw;
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
+} */
 
 .proyectos-muestra img{
   width: 150px;
@@ -285,6 +285,8 @@ a {
 
   
 
+  
+
 }
 
 .form {
@@ -355,13 +357,14 @@ a {
 
   
   
-  .proyectos-muestra img{
+  
+  /* .proyectos-muestra img{
     width: 380px;
     height: 280px;
     border-radius: 30px;
   
   }
-  
+   */
   
   
 }

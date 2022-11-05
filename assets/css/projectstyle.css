@@ -1,0 +1,56 @@
+    .contain__proyect{
+    height: 800px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+} 
+
+.contain__icons{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    gap: 10px;
+    list-style: none;
+    position: relative;
+}
+
+.icon_tecnologi{
+    font-size: 39px;
+    list-style: none;
+    background-color: #6B728E ;
+    border-radius: 50%;
+
+}
+.bxl-html5{
+    color: red;
+}
+.bxl-react{
+    color: #61a3ff;
+}
+.bxl-css3{
+    color: blue;
+}
+.bxl-javascript{
+    color: yellow;
+}
+.bxl-redux{
+    color: orange;
+}
+
+@media (max-width: 768px) {
+    .contain__proyect{
+        display: flex;
+        flex-wrap: wrap;
+        height: 1900px;
+        border-radius: 30px;
+    }
+    
+} 
+
+@media (min-width: 768px) {
+
+}
